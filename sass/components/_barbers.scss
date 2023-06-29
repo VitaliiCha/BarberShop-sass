@@ -3,19 +3,17 @@
     background: #f7f7f7;
   }
   .barbers__pre-title {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.35;
+    @include font(11px, 600, 1.35);
+    
     text-transform: uppercase;
     color: var(--second-color-title);
     margin-bottom: 20px;
   }
   .barbers__title {
+    @include font(42px, 700, 1.15);
+
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.15;
     letter-spacing: 0.05em;
     color: var(--second-color-title);
     margin-bottom: 44px;
@@ -46,12 +44,11 @@
     color: var(--second-color-title);
   }
   .barbers__style {
+    @include font(14px, 400, 1.35);
+
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.35;
     letter-spacing: 0.02em;
     color: var(--accent-color);
   }

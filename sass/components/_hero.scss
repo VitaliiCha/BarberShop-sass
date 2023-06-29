@@ -21,9 +21,8 @@
   }
   
   .hero__item:first-child::before {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.35;
+    @include font(11px, 600, 1.35);
+    
     letter-spacing: 0.2em;
     align-items: center;
     content: '';
@@ -34,9 +33,8 @@
     
   }
   .hero__item {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.35;
+    @include font(11px, 600, 1.35);
+
     letter-spacing: 0.2em;
     display: flex;
     align-items: center;
@@ -61,27 +59,24 @@
     background-size: cover;
   }
   .hero__pre-title {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.35;
+    @include font(11px, 600, 1.35);
+
     text-transform: uppercase;
     color: var(--color-pre-titel);
     margin-bottom: 20px;
   }
   .hero__title {
+    @include font(72px, 700, 1.18);
+
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 1.18;
     letter-spacing: 0.05em;
     color: var(--color-title);
     margin-bottom: 20px;
   }
   .hero__description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.65;
+    @include font(18px, 400, 1.65);
+    
     letter-spacing: 0.02em;
     color: var(--second-color-text);
     width: 360px;

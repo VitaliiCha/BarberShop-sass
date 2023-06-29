@@ -26,11 +26,10 @@
     width: 570px;
   }
   .booking__title {
+    @include font(42px, 700, 1.15);
+
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.15;
     letter-spacing: 0.05em;
     color: var(--color-title);
     margin-bottom: 44px;

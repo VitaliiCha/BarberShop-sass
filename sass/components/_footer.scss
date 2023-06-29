@@ -6,17 +6,15 @@
     height: 130px;
   }
   .footer__text {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.35;
+    @include font(11px, 600, 1.35);
+
     letter-spacing: 0.2em;
     color: var(--second-color-text);
   }
   .header__networks {
+    @include font(11px, 600, 1.35);
+
     display: flex;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 15px;
     letter-spacing: 0.2em;
     color: var(--second-color-title);
 
@@ -34,10 +32,9 @@
     margin-right: 40px;
   }
   .footer__networks {
+    @include font(11px, 600, 1.35);
+
     text-decoration: none;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.35;
     letter-spacing: 0.2em;
     color: var(--second-color-title);
     transition-duration: 250ms;

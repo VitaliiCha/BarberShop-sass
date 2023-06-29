@@ -1,9 +1,8 @@
 .btn {
+  @include font(12px, 600, 1.35);
+  
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.35;
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--link-color);
@@ -33,9 +32,8 @@
   }
 /* price */  
   .price__btn {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.3;
+    @include font(12px, 600, 1.3);
+   
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--link-color);
@@ -68,9 +66,8 @@
   }
 // price
   .price__btn {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.3;
+    @include font(12px, 600, 1.3);
+
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: var(--link-color);
