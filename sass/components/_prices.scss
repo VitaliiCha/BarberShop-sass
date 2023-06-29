@@ -1,0 +1,78 @@
+/* Prices section */
+.prices {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url(../imgages/img.png), linear-gradient(#111319, #111319);
+  background-size: cover;
+  background-attachment: fixed;
+
+    &__item {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.65;
+      letter-spacing: 0.02em;
+      color: var(--second-color-text);
+      display: flex;
+      margin-bottom: 44px;
+    }
+    &__bords {
+      width: 50%;
+    
+      &:first-child {
+        margin-right: 30px;
+        background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+      }
+      &:last-child {
+        background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+      }
+    }
+    
+    &__service {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-right: 20px;
+      padding-left: 20px;
+    
+      &::after {
+        content: '';
+        height: 1px;
+        background: rgba(157, 164, 189, 0.12);
+        flex-grow: 1;
+        margin: 0 12px;
+      }
+      & > p:last-child {
+        order: 1;
+      }
+      &:not(:last-child) {
+        padding-bottom: 20px;
+      }
+      &:first-child {
+        padding-top: 30px;
+      }
+      &:last-child {
+        padding-bottom: 30px;
+      }
+    }
+}
+
+.price__pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: var(--color-pre-titel);
+  margin-bottom: 20px;
+}
+.price__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: var(--color-title);
+  margin-bottom: 44px;
+}
+
+

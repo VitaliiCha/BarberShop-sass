@@ -1,0 +1,75 @@
+/* Our barbers section */
+.barber__section {
+    background: #f7f7f7;
+  }
+  .barbers__pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.35;
+    text-transform: uppercase;
+    color: var(--second-color-title);
+    margin-bottom: 20px;
+  }
+  .barbers__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    color: var(--second-color-title);
+    margin-bottom: 44px;
+  }
+  /* Barbers list */
+  .barbers__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .barbers__items {
+    flex-basis: calc((100% - 60px) / 3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--background-color);
+  }
+  .barber__img {
+    border-radius: 4px 4px 0px 0px;
+  }
+  .barbers__name {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--second-color-title);
+  }
+  .barbers__style {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+  }
+  .barbers__contacts {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barbers__social:not(:last-child) {
+    margin-right: 10px;
+  }
+  .social__link {
+    padding: 12px;
+    background: #f7f7f7;
+    border-radius: 50%;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }

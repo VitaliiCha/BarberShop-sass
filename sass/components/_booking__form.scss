@@ -1,0 +1,49 @@
+/* Booking Form */
+.booking__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    & input {
+      width: 270px;
+      height: 24px;
+      padding-bottom: 8px;
+     
+    }
+    
+    & textarea {
+      height: 76px;
+      resize: none;
+      width: 100%;
+      
+    }
+  }
+  
+  .form__item {
+    color: var(--link-color);
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--color-pre-titel);
+    margin-bottom: 44px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    outline: none;
+    
+    &::placeholder {
+      color: var(--color-pre-titel);
+    }
+    &:hover::placeholder,
+    &:focus::placeholder {
+      color: var(--link-color);
+    }
+    &:hover,
+    &:focus {
+      border: none;
+      border-bottom: 1px solid var(--link-color);
+      outline: none;  
+    }
+  }
+  

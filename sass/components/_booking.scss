@@ -1,0 +1,37 @@
+/* Booking Contacts section */
+
+.booking-contacts__wrap {
+ 
+    display: flex;
+    
+    background-color: #191C26;
+    
+    background-image: url(../imgages/bg.png) ;
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    
+  
+  }
+  .booking__conteiner {
+    display: inline-flex;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .booking__section {
+    /* width: 50%; */
+    padding: 120px 0 120px;
+    /* margin-right: 15px; */
+    width: 570px;
+  }
+  .booking__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    color: var(--color-title);
+    margin-bottom: 44px;
+  }

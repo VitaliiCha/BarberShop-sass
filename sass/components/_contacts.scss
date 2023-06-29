@@ -1,0 +1,86 @@
+/* Contacts section */
+
+.contact__section {
+    /* width: 50%; */
+    padding: 120px 0 120px 100px;
+    /* margin-left: 15px; */
+    width: 570px;
+  }
+  .contact__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    color: var(--color-title);
+    margin-bottom: 40px;
+  }
+  
+  .contact__contacts > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .contact__adress {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.65;
+    letter-spacing: 0.02em;
+    color: var(--second-color-text);
+    fill: var(--second-color-text);
+    width: 230px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact__phone {
+    display: inline-flex;
+    gap: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    letter-spacing: 0.02em;
+    color: var(--second-color-text);
+    fill: var(--second-color-text);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact__email {
+    display: inline-flex;
+    gap: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    letter-spacing: 0.02em;
+    color: var(--second-color-text);
+    fill: var(--second-color-text);
+    text-decoration: underline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact__pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.35;
+    text-transform: uppercase;
+    color: var(--color-title);
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  .contact__work-time {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    letter-spacing: 0.02em;
+    color: var(--second-color-text);
+  }

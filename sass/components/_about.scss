@@ -1,0 +1,45 @@
+/* About section */
+
+.about__section {
+    display: flex;
+    padding-right: 100px;
+  }
+  .about__items {
+    display: flex;
+  }
+  .about__photo {
+    margin-right: 30px;
+  }
+  .about__pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.35;
+    text-transform: uppercase;
+    color: var(--second-color-title);
+    margin-bottom: 20px;
+  }
+  .about__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    color: var(--second-color-title);
+    margin-bottom: 20px;
+  }
+  .about__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+  }
+  .about__second-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    margin-bottom: 44px;
+  }
+  
